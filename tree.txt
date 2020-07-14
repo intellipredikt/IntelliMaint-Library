@@ -1,0 +1,163 @@
+IntelliMaint_Package
+|   main.py
+|   README.md
+|   setup.py
+|   tree.txt
+|   
++---data
++---doc
++---examples
+\---IntelliMaint
+    |   AnomalyDetection.py
+    |   __init__.py
+    |   
+    +---anomaly
+    |   |   conformal.py
+    |   |   __init__.py
+    |   |   
+    |   +---group_anomaly
+    |   |   |   group_anomaly.py
+    |   |   |   peer_grouping.py
+    |   |   |   transformer.py
+    |   |   |   __init__.py
+    |   |   |   
+    |   |   \---datasets
+    |   |       |   data_loader.py
+    |   |       |   __init__.py
+    |   |       |   
+    |   |       \---data
+    |   |           +---taxi
+    |   |           |       nyc_taxi.csv
+    |   |           |       
+    |   |           +---toy0
+    |   |           |       unit0.csv
+    |   |           |       unit1.csv
+    |   |           |       unit2.csv
+    |   |           |       unit3.csv
+    |   |           |       unit4.csv
+    |   |           |       
+    |   |           +---toy1
+    |   |           |       unit0.csv
+    |   |           |       unit1.csv
+    |   |           |       unit2.csv
+    |   |           |       unit3.csv
+    |   |           |       unit4.csv
+    |   |           |       
+    |   |           +---toy2
+    |   |           |       unit0.csv
+    |   |           |       unit1.csv
+    |   |           |       unit2.csv
+    |   |           |       unit3.csv
+    |   |           |       unit4.csv
+    |   |           |       
+    |   |           +---toy3
+    |   |           |       unit0.csv
+    |   |           |       unit1.csv
+    |   |           |       unit2.csv
+    |   |           |       unit3.csv
+    |   |           |       unit4.csv
+    |   |           |       
+    |   |           +---toy4
+    |   |           |       unit0.csv
+    |   |           |       unit1.csv
+    |   |           |       unit2.csv
+    |   |           |       unit3.csv
+    |   |           |       unit4.csv
+    |   |           |       
+    |   |           +---toy5
+    |   |           |       unit0.csv
+    |   |           |       unit1.csv
+    |   |           |       unit2.csv
+    |   |           |       unit3.csv
+    |   |           |       unit4.csv
+    |   |           |       
+    |   |           +---toy6
+    |   |           |       unit0.csv
+    |   |           |       unit1.csv
+    |   |           |       unit2.csv
+    |   |           |       unit3.csv
+    |   |           |       unit4.csv
+    |   |           |       
+    |   |           +---toy7
+    |   |           |       unit0.csv
+    |   |           |       unit1.csv
+    |   |           |       unit2.csv
+    |   |           |       unit3.csv
+    |   |           |       unit4.csv
+    |   |           |       
+    |   |           +---vehicles
+    |   |           |       temp0.csv
+    |   |           |       temp1.csv
+    |   |           |       temp2.csv
+    |   |           |       temp3.csv
+    |   |           |       temp4.csv
+    |   |           |       temp5.csv
+    |   |           |       temp6.csv
+    |   |           |       temp7.csv
+    |   |           |       
+    |   |           +---vehicles2
+    |   |           |       369_16929.csv
+    |   |           |       370_16929.csv
+    |   |           |       371_16929.csv
+    |   |           |       372_16929.csv
+    |   |           |       373_16929.csv
+    |   |           |       374_16929.csv
+    |   |           |       375_16929.csv
+    |   |           |       376_16929.csv
+    |   |           |       377_16929.csv
+    |   |           |       378_16929.csv
+    |   |           |       379_16929.csv
+    |   |           |       380_16929.csv
+    |   |           |       381_16929.csv
+    |   |           |       382_16929.csv
+    |   |           |       383_16929.csv
+    |   |           |       452_16929.csv
+    |   |           |       453_16929.csv
+    |   |           |       454_16929.csv
+    |   |           |       455_16929.csv
+    |   |           |       
+    |   |           \---vehiclesFE
+    |   |                   temp0.csv
+    |   |                   temp1.csv
+    |   |                   temp2.csv
+    |   |                   temp3.csv
+    |   |                   temp4.csv
+    |   |                   temp5.csv
+    |   |                   temp6.csv
+    |   |                   temp7.csv
+    |   |                   
+    |   +---individual_anomaly
+    |   |   |   individual_anomaly_inductive.py
+    |   |   |   individual_anomaly_transductive.py
+    |   |   |   __init__.py
+    |   |   |   
+    |   |   \---__pycache__
+    |   |           individual_anomaly_inductive.cpython-37.pyc
+    |   |           individual_anomaly_transductive.cpython-37.pyc
+    |   |           __init__.cpython-37.pyc
+    |   |           
+    |   \---__pycache__
+    |           conformal.cpython-37.pyc
+    |           __init__.cpython-37.pyc
+    |           
+    +---healthIndicator
+    |       feature_selection.py
+    |       FrequencyDomain.py
+    |       NonStationary.py
+    |       StatisticalFeatures.py
+    |       TimeDomain.py
+    |       __init__.py
+    |       
+    +---utils
+    |   |   ChunkData.py
+    |   |   Dimensions.py
+    |   |   Utils.py
+    |   |   
+    |   \---__pycache__
+    |           Utils.cpython-37.pyc
+    |           
+    +---visualization
+    \---__pycache__
+            AnomalyDetection.cpython-37.pyc
+            __init__.cpython-37.pyc
+            
